@@ -13,18 +13,45 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-#define PI 10
 
-/*
- * 
- */
-int main() {
+#define PI 10//variables globales, constantes
+
+int main() 
+
+
+//uso de scanf
+{
     int x;
-    
-    x = PI;
-    
-    printf("El valor de PI es: %i\n",x);
-    
+            
+    printf("Introduzca un valor:\n");
+    scanf("%i",&x);
+    //x = x + PI;//es lo mismo que la siguiente linea
+    x += PI;
+    printf("El valor es: %i\n",x);
+        
     return (EXIT_SUCCESS);
 }
 
+//uso de fgets solo para leer texto
+/*{
+  char name[10];
+
+  printf("Who are you? ");
+  fgets(name,10,stdin);//lee hasta que llega un /n o 10 caracteres
+  printf("Glad to meet you, %s",name);
+  
+  return (EXIT_SUCCESS);
+}*/
+
+//ops basicas
+/*{
+    int x,y,z;
+    
+    x = 20;
+    y = 10;
+    
+    z = x % y;// sirve para sumar restar dividir y multiplicar nose
+    printf("Operacion modulo (x mod y): %i",z);
+      
+    return (EXIT_SUCCESS);
+}*/
