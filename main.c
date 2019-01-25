@@ -20,7 +20,7 @@ int main()
 
 
 //uso de scanf
-{
+/*{
     int x;
             
     printf("Introduzca un valor:\n");
@@ -30,7 +30,7 @@ int main()
     printf("El valor es: %i\n",x);
         
     return (EXIT_SUCCESS);
-}
+}*/
 
 //uso de fgets solo para leer texto
 /*{
@@ -50,8 +50,16 @@ int main()
     x = 20;
     y = 10;
     
-    z = x % y;// sirve para sumar restar dividir y multiplicar nose
+    z = x % y;// sirve para sumar restar dividir y multiplicar.
     printf("Operacion modulo (x mod y): %i",z);
       
     return (EXIT_SUCCESS);
 }*/
+
+//Operadores de incremento
+{
+    int x;
+    x++;
+    printf("El valor de X es: %i",x);
+            
+}
