@@ -13,12 +13,18 @@
 
 #include <stdio.h>
 #include <stdlib.h>
+#define PI 10
 
 /*
  * 
  */
-int main(int argc, char** argv) {
-
+int main() {
+    int x;
+    
+    x = PI;
+    
+    printf("El valor de PI es: %i\n",x);
+    
     return (EXIT_SUCCESS);
 }
 
