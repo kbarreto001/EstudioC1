@@ -60,6 +60,17 @@ int main()
 {
     int x;
     x++;
-    printf("El valor de X es: %i",x);
+    printf("El valor de X es: %i",x);//ya
             
 }
+
+//uso de fgets solo para leer texto
+/*{
+  char name[10];
+
+  printf("Who are you? ");
+  fgets(name,10,stdin);//lee hasta que llega un /n o 10 caracteres
+  printf("Glad to meet you, %s",name);
+  
+  return (EXIT_SUCCESS);
+}*/
